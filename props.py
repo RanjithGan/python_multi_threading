@@ -1,4 +1,4 @@
-# Python program to illustrate the concept of threading 
+# Python program to illustrate the concept of threading .
 import threading 
 import os 
 

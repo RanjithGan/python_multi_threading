@@ -1,6 +1,6 @@
 import threading 
 
-# global variable x 
+# global variable x .
 x = 0
 
 def increment(): 
