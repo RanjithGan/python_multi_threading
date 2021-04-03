@@ -3,14 +3,14 @@
 import threading 
 
 
-def PrintCube(num): 
+def printCube(num): 
 	""" 
 	function to print cube of given num 
 	"""
 	print("Cube: {}".format(num * num * num)) 
 
 
-def PrintSquare(num): 
+def printSquare(num): 
 	""" 
 	function to print square of given num 
 	"""
@@ -19,8 +19,8 @@ def PrintSquare(num):
 
 if __name__ == "__main__": 
 	# creating thread 
-	t1 = threading.Thread(target=PrintSquare, args=(10,)) 
-	t2 = threading.Thread(target=PrintCube, args=(10,)) 
+	t1 = threading.Thread(target = PrintSquare, args = (10,)) 
+	t2 = threading.Thread(target = PrintCube, args = (10,)) 
 
 	# starting thread 1 
 	t1.start() 
